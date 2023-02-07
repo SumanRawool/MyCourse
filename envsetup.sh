@@ -20,4 +20,4 @@ else
 fi
 
 sudo chmod -R 777 logs
-echo"envsetup finished"
+echo "envsetup finished"
