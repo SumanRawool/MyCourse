@@ -3,7 +3,7 @@ if [-d "venv"]
 then
     echo"Python virtual env exists"
 else
-    python3 -m venv env
+    python3 -m venv venv
 fi
 echo $PWd
 source venv/bin/activate
