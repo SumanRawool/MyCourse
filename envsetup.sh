@@ -6,7 +6,7 @@ else
     python3 -m venv venv
 fi
 echo $PWd
-source venv/bin/activate
+source venv/Scripts/activate
 
 
 pip3 install -r requirement.txt

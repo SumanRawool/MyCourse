@@ -1,0 +1,17 @@
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=E:/MyCourse
+ExecStart=E:/MyCourse/venv/Scripts/gunicorn --workers 3 --log-level debug --error-logfile E:/MyCourse/error.log --bind unix:/run/gunicorn.sock mycourse.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
+
+
+[Install]
+WantedBy=multi-user.target
