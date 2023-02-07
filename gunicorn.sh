@@ -11,7 +11,7 @@ sudo cp -rf gunicorn.socket /etc/systemd/system/
 sudo cp -rf gunicorn.service /etc/systemd/system/
 
 echo "$USR"
-echo "$PWd"
+echo "$Pwd"
 
 sudo systemctl daemon-reload
 sudo systemctl start gunicorn
