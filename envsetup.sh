@@ -5,7 +5,7 @@ then
 else
     python3 -m venv venv
 fi
-echo venv/scripts/activate
+echo venv/bin/activate
 if [-d "logs"]
 then
     echo"log folder exists"
