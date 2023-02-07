@@ -5,6 +5,7 @@ then
 else
     python3 -m venv venv
 fi
+echo $PWd
 source venv/Scripts/activate
 
 
