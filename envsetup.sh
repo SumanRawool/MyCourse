@@ -3,10 +3,10 @@ if [-d "venv"]
 then
     echo"Python virtual env exists"
 else
-    python3 -m venv venv
+    python3 -m venv env
 fi
 echo $PWd
-source ./venv/Scripts/activate
+source venv/bin/activate
 
 
 pip3 install -r requirement.txt
