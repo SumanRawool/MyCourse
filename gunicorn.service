@@ -7,7 +7,10 @@ After=network.target
 User=root
 Group=www-data
 WorkingDirectory=E:/MyCourse
-ExecStart=E:/MyCourse/venv/Scripts/gunicorn --workers 3 --log-level debug --error-logfile E:/MyCourse/error.log --bind unix:/run/gunicorn.sock mycourse.wsgi:application
+ExecStart=E:/MyCourse/venv/Scripts/gunicorn 
+--workers 3 
+--log-level debug 
+--error-logfile /var/lib/jenkins/workspace/django-cicd/error.log --bind unix:/run/gunicorn.sock mycourse.wsgi:application
 
 [Install]
 WantedBy=multi-user.target

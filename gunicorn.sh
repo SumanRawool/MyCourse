@@ -1,5 +1,5 @@
 #!/bin/bash
-source venv/Scripts/activate
+source venv/bin/activate
 cd E:/MyCourse
 
 python3 manage.py makemigrations
