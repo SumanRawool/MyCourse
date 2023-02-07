@@ -1,12 +1,12 @@
 #!/bin/bash
-if [-d "venv"]
+if [ -d "venv"]
 then
     echo"Python virtual env exists"
 else
     python3 -m venv venv
 fi
 echo venv/Scripts/activate
-if [-d "logs"]
+if [ -d "logs"]
 then
     echo"log folder exists"
 else
