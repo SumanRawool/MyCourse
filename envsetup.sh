@@ -9,7 +9,7 @@ echo $PWd
 source venv/bin/activate
 
 
-pip3 install -r requirements.txt
+pip3 install -r E:\MyCourse\requirement.txt
 
 if [-d "logs"]
 then
