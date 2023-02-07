@@ -5,7 +5,11 @@ then
 else
     python3 -m venv venv
 fi
-echo venv/bin/activate
+source venv/bin/activate
+
+
+pip3 install -r requirements.txt
+
 if [-d "logs"]
 then
     echo"log folder exists"
