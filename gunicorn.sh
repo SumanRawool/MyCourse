@@ -1,5 +1,5 @@
 #!/bin/bash
-source venv/bin/activate
+source venv/Scripts/activate
 cd /var/lib/jenkins/workspace/django-cicd
 
 python3 manage.py makemigrations
