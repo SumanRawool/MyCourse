@@ -6,10 +6,10 @@ else
     python3 -m venv venv
 fi
 echo $PWd
-source venv/bin/activate
+source ./venv/bin/activate
 
 
-pip3 install -r E:\MyCourse\requirement.txt
+pip3 install -r requirement.txt
 
 if [-d "logs"]
 then
